@@ -14,6 +14,6 @@ pipeline {
     }
   }
   triggers {
-    eventTrigger(simpleMatch('amit Event'))
+    eventTrigger(simpleMatch('amitEvent'))
   }
 }
